@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "notes",
   "info": {
-    "name": "note"
+    "name": "note",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "content": {
       "type": "text"
     }
